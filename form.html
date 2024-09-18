@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>My Website</title>
+
+    </head>
+        <body>
+            <header>
+            
+             <nav>
+                <ul>
+                   
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="sched.html">Schedule</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+             </nav>
+            </header>
+            
+            <form method="post" action="process.php">
+
+                <fieldset >
+                    <legend>Introduce Yourself</legend>
+                    
+                
+
+                First Name: <input type="text" size="20" name="firstname"  /><br />
+                Last Name: <input type="text" size="30" name="lastname" /><br />
+          <div class="eye">
+                Eye Color:<br />
+                <input type="radio" name="eye" value="brown" />Brown<br />
+                <input type="radio" name="eye" value="blue" />Blue<br />
+                <input type="radio" name="eye" value="green" />Green<br />
+                <input type="radio" name="eye" value="other" />Other<br />
+            </div>
+        <div class="pets">
+                My Pets:<br />
+               <input type="checkbox" name="pets" value="dog" />Dog<br />
+               <input type="checkbox" name="pets" value="cat" />Cat<br />
+               <input type="checkbox" name="pets" value="hamster" />Hamster<br />
+               <input type="checkbox" name="pets" value="fish" />Fish<br />
+        </div>
+        
+                Foreign Languages Spoken:<br />
+              <select name="language">
+              <option value="spanish">Spanish</option>
+              <option value="french">French</option>
+              <option value="japanese">Japanese</option>
+              <option value="arabic">Arabic</option>
+              </select><br/>
+       
+              Tell us some more about yourself:<br />
+             
+             <textarea name="more" rows="8" cols="30">Type here.
+            </textarea><br/>
+        <div class="submit">
+            <input type="submit" value="All Done!" />
+        </div>
+                </form>
+            </fieldset>
+        </body>
+
+        
